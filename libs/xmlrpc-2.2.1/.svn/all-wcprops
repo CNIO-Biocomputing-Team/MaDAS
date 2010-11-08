@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1
+END
+Changelog
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/Changelog
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/NEWS
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/Makefile
+END

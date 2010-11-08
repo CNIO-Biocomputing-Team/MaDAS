@@ -1,0 +1,8 @@
+--2010-03-03 16:39:06--  http://madas2.bioinfo.cnio.es/plugins_dir/dataSources/data_load-gff/parseFile.php?file=tmp/9b857394755ecf8b0ceb2a79db965f52&dsn=0&mtype=&annot=
+Resolving madas2.bioinfo.cnio.es... 10.10.116.53
+Connecting to madas2.bioinfo.cnio.es|10.10.116.53|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+parseFile.php?file=tmp%2F9b857394755ecf8b0ceb2a79db965f52&dsn=0&mtype=&annot=: Permission denied
+
+Cannot write to `parseFile.php?file=tmp%2F9b857394755ecf8b0ceb2a79db965f52&dsn=0&mtype=&annot=' (Permission denied).

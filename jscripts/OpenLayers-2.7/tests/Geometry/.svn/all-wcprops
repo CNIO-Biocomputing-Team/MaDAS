@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry
+END
+LineString.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry/LineString.html
+END
+MultiPolygon.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry/MultiPolygon.html
+END
+MultiPoint.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry/MultiPoint.html
+END
+Curve.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry/Curve.html
+END
+Rectangle.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry/Rectangle.html
+END
+Polygon.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry/Polygon.html
+END
+Surface.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry/Surface.html
+END
+MultiLineString.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry/MultiLineString.html
+END
+Point.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry/Point.html
+END
+LinearRing.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry/LinearRing.html
+END
+Collection.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tests/Geometry/Collection.html
+END

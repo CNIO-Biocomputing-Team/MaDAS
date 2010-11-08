@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/build
+END
+full.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/build/full.cfg
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/build/license.txt
+END
+library.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/build/library.cfg
+END
+build.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/build/build.py
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/build/README.txt
+END
+lite.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/build/lite.cfg
+END
+buildUncompressed.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/build/buildUncompressed.py
+END

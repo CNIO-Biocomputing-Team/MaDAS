@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/MaDAS/jscripts/validate
+END
+jquery.validate.pack.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/MaDAS/jscripts/validate/jquery.validate.pack.js
+END
+jquery.validate.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/MaDAS/jscripts/validate/jquery.validate.js
+END
+jquery.validate.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/MaDAS/jscripts/validate/jquery.validate.min.js
+END
+jquery.metadata.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/MaDAS/jscripts/validate/jquery.metadata.js
+END
+META.json
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/MaDAS/jscripts/validate/META.json
+END

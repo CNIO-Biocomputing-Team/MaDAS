@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-array-express
+END
+d_index.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-array-express/d_index.php
+END
+parseFile.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-array-express/parseFile.php
+END
+class.load-array.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-array-express/class.load-array.php
+END
+lang_EN.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-array-express/lang_EN.php
+END
+getDsn.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-array-express/getDsn.php
+END
+insert_file.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-array-express/insert_file.sh
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-array-express/index.php
+END

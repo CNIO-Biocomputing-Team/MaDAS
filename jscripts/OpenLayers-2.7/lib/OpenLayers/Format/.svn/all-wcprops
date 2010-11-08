@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format
+END
+GeoJSON.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/GeoJSON.js
+END
+Text.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/Text.js
+END
+WKT.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/WKT.js
+END
+Filter.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/Filter.js
+END
+WMC.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/WMC.js
+END
+JSON.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/JSON.js
+END
+GPX.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/GPX.js
+END
+OSM.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/OSM.js
+END
+GML.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/GML.js
+END
+WFS.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/WFS.js
+END
+XML.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/XML.js
+END
+SLD.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/SLD.js
+END
+GeoRSS.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/GeoRSS.js
+END
+KML.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/lib/OpenLayers/Format/KML.js
+END

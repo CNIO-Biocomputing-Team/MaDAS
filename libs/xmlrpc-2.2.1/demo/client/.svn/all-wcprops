@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/client
+END
+wrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/client/wrap.php
+END
+introspect.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/client/introspect.php
+END
+zopetest.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/client/zopetest.php
+END
+client.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/client/client.php
+END
+which.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/client/which.php
+END
+comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/client/comment.php
+END
+mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/client/mail.php
+END
+agesort.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/client/agesort.php
+END
+simple_call.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/client/simple_call.php
+END

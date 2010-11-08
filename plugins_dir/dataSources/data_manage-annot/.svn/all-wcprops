@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_manage-annot
+END
+v_annot_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_manage-annot/v_annot_edit.php
+END
+class.manage-annot.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_manage-annot/class.manage-annot.php
+END
+v_annot_edit_r.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_manage-annot/v_annot_edit_r.php
+END
+d_annot_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_manage-annot/d_annot_list.php
+END
+lang_EN.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_manage-annot/lang_EN.php
+END
+v_annot_delete.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_manage-annot/v_annot_delete.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_manage-annot/index.php
+END

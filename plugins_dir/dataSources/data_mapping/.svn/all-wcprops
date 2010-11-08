@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_mapping
+END
+d_annot_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_mapping/d_annot_list.php
+END
+v-get-features.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_mapping/v-get-features.php
+END
+class.mapping.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_mapping/class.mapping.php
+END
+d-store-new-features-r.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_mapping/d-store-new-features-r.php
+END
+v-store-new-features.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_mapping/v-store-new-features.php
+END
+lang_EN.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_mapping/lang_EN.php
+END
+error_log
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_mapping/error_log
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_mapping/index.php
+END

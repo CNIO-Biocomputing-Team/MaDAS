@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-uk">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<title>jQuery grid demo</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.jqGrid.js"></script>
+<script type="text/javascript" src="jquery.searchdb.js"></script>
+<link rel="stylesheet" href="grid.css" type="text/css" />
+<link rel="stylesheet" href="searchdb.css" type="text/css" />
+<style type="text/css" media="screen">
+	body {
+		font-family: Verdana, Arial, "Comic Sans MS", sans-serif; 
+		font-size: 11px; 
+		margin: 0px;
+		padding: 10px; 
+	}
+	
+</style>
+<script type="text/javascript">
+	$(document).ready(
+		function() {
+			var grid1 = $("#scroll1").jqGrid( {
+				height: 200, 
+				url: 'dyndata1.php',
+				colNames : ['id','Title','Author','Date added', 'Update', 'Smile'],
+				colModel : [
+					{name : 'message_id', width : 40, sortable : true, align: 'left'},
+					{name : 'message_title', width : 180, sortable : true, align: 'left'},
+					{name : 'author', width : 120, sortable : true, align: 'left'},
+					{name : 'date_add', width : 130, sortable : true, align: 'left'},
+					{name : 'date_update', width :130, sortable : true, align: 'left'},
+					{name : 'smile_url', width : 50, sortable : false, align: 'right'}
+				],
+				rowNum   : 15,
+        rowList  : [15,25,40,50],
+        pager    : $("#pager"),
+        sortname: "date_update",
+        sortorder: "desc"
+//        onSelectRow: function (iRow) { alert(iRow) },
+//        onSortCol: function (idx,iCol){ alert(idx);alert(iCol); },
+//        ondblClickRow: function (iRow) { alert("Row id: "+iRow) }
+			});
+  		$('#search1').searchdb({searchModel: [{label:'Title',dbname:'message_title',defval:"", dtype:"S", dopt:"cn;eq;lt;le;gt;ge;bw;ew"},
+			                                     {label:'Autor',dbname: 'author', dtype:"S"}
+                            ],
+                            disableClose: true,
+                            onSearch: function(s) {
+                              grid1.setUrl("dyndata1.php?whr="+s);
+                              grid1.setPage(1);
+                              $("#scroll1").trigger('reloadGrid');
+                            } 
+                            });
+  	}
+	); 
+</script>
+
+</head>
+<body>
+<div>
+<span id="search1"></span>
+<table id="scroll1" class="scroll" cellpadding="0" cellspacing="0"></table>
+<div id="pager" class="scroll" style="text-align:center;" ></div>
+</div>
+</body>
+</html>

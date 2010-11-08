@@ -1,0 +1,32 @@
+<?
+	session_start();
+?>
+<div id="projectsCanvas">
+<table style="margin-top:20px;" border="0" width="840">
+	<tr>
+		<td align="left">
+			<div style="float:right;padding:10px;border:1px solid #666666;background-color:#E0E0E0;width:170px;margin:20px;">	
+					<p style="text-align:justify;"><b>Example:</b></p>
+					<p style="text-align:left;"><b>1)</b> Click on the <b>Gene Expression</b> project</p>
+					<p style="text-align:left;"><b>2)</b> Click on <b>Analyze data</b>, select <b>Madasmap</b> or <b>Gene Expression</b> and then follow the instructions</p>
+			</div>
+			<img src="images/project_join.png" align="left" hspace="10" border="0" />
+			
+			<div class="header2">MaDAS Projects</div>
+			<p style="text-align:left"><a id="sources" onClick='javascript:$jQ("...").projectsList("1=1")'>Browse / Join</a> | 
+			<? 
+				if (@$_COOKIE['name'] == 'Nobody'){ 
+					echo 'Create';
+				}else{	
+			?>
+				<a onClick='javascript:$jQ("...").projectsAdd()'>Create</a>
+			<? } ?>
+			</p>
+
+			<br><br><br>	
+			<p style="text-align:left">Welcome to <b>MaDAS projects!</b></p>
+			<p style="text-align:left">Join a <b>public project</b> or  <b>create your own</b>.<br> Your projects are shown in the <b>right column</b>. Click on the project name to work with it.</p>
+		</td>
+	</tr>
+</table>
+</div>

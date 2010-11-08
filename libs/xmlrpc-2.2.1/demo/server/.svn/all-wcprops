@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/server
+END
+discuss.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/server/discuss.php
+END
+proxy.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/server/proxy.php
+END
+server.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/demo/server/server.php
+END

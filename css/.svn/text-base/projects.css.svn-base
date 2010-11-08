@@ -1,0 +1,151 @@
+.myProjectThumb{
+	margin-bottom:10px;
+	cursor:move;
+}
+.projectThumb{
+	background-color:#3E83B5;
+	margin-bottom:10px;
+	border:1px solid #3E83B5;
+	cursor:move;
+}
+.projectThumbTitle{
+	text-align:center;
+	padding:1px 5px 1px 5px;
+	width:130px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.projectThumbDate{
+	text-align:justify;
+	padding:1px 5px 1px 5px;
+	width:130px;
+	color:#FFFFFF;
+}
+.projectThumbBody{
+	background-color:#FFFFFF;
+	height:50px;
+	text-align:left;
+	padding:5px;
+}
+.projectThumbDelete{
+	background-color:#FFFFFF;
+	height:50px;
+	text-align:right;
+	padding:5px;
+}
+#newProjectBox{
+	padding:10px;
+}
+#projectCanvas{
+	width:700px;
+	height:450px;
+	text-align:left;
+	margin-top:20px;
+	/*background-color:#626B8A;*/
+	padding:20px;
+}
+.dragAlert{
+	padding:10px;
+}
+.project{
+	cursor:pointer;
+	margin-bottom:5px;
+	border-bottom:1px dotted #E0E0E0;
+}
+
+.myProjectsList{
+	/*background-color:#FEFDEC;
+	border:1px solid #EDEBCD;*/
+	padding:5px;
+}
+.projectCanvasactive{
+	background-color:#FFFFFF;
+}
+.projectCanvashover{
+	background-color:#FFFFFF;
+}
+.projectName {
+	text-align:left;
+	font-weight:bold;
+	text-transform:capitalize;
+}
+.projectDate {
+	text-align:left;
+	color:#626B8A;
+	font-size:8pt;
+}
+.projectTransfer
+{
+	border:1px solid #626B8A;
+	/*background-color:#626B8A;*/
+}
+.sources{
+	position:relative;
+	background:url('../images/square_b.png');
+	width:180px;
+	height:172px;
+}
+.sources-favorite{
+	position:relative;
+	background:url('../images/square1.png');
+	width:180px;
+	height:172px;
+	
+}
+.source-name{
+	font-weight:bold;
+	color:#000000;
+	font-size: 11px;
+}
+.source-by{
+	margin-top:5px;
+	margin-left: 5px;
+	color:#999999;
+	text-transform:capitalize;
+	font-size: 11px;
+}
+.source-clicks{
+	margin-top:5px;
+	margin-left: 35px;
+	font-size: 11px;
+}
+.source-clicks A{
+	color:#000000;
+	text-decoration:none;
+	font-size: 11px;
+}
+.visualization{
+	position:relative;
+	background:url('../images/square_b.png');
+	width:180px;
+	height:172px;
+}
+.visualization-favorite{
+	position:relative;
+	background:url('../images/square1.png');
+	width:180px;
+	height:172px;
+}
+.visualization-name{
+	font-weight:bold;
+	color:#000000;
+	font-size: 11px;
+}
+.visualization-by{
+	margin-top:5px;
+	margin-left: 5px;
+	color:#999999;
+	font-size: 11px;
+	text-transform:capitalize;
+}
+.visualization-clicks{
+	margin-top:5px;
+	margin-left: 35px;
+	font-size: 11px;
+}
+.visualization-clicks A{
+	color:#000000;
+	text-decoration:none;
+	font-size: 11px;
+}
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/lib/compat
+END
+var_export.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/lib/compat/var_export.php
+END
+is_callable.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/lib/compat/is_callable.php
+END
+is_a.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/lib/compat/is_a.php
+END
+version_compare.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/lib/compat/version_compare.php
+END
+is_scalar.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/lib/compat/is_scalar.php
+END
+array_key_exists.php
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/lib/compat/array_key_exists.php
+END

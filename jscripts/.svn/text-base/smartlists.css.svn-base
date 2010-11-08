@@ -1,0 +1,4 @@
+#sl-pagination span { padding-left: 2px; padding-right: 2px; }
+.sl-pagination-selected { border: 1px solid #336699; background-color: #E5F3FE; font-weight: bold; padding: 2px; }
+.sl-pagination-selected a:link, .sl-pagination-selected a:visited { text-decoration: none; color: #0099FF }
+.flags {color:#999999;}

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/MaDAS/jscripts/OpenGenes
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/MaDAS/jscripts/OpenGenes/LICENSE.txt
+END
+mkdist.sh
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/MaDAS/jscripts/OpenGenes/mkdist.sh
+END
+tiler.pl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/MaDAS/jscripts/OpenGenes/tiler.pl
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/MaDAS/jscripts/OpenGenes/index.html
+END

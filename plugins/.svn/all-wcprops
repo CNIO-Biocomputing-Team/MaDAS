@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/4/MaDAS/plugins
+END
+_dasServersView.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4/MaDAS/plugins/_dasServersView.php
+END
+_dasServersList.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4/MaDAS/plugins/_dasServersList.php
+END
+_dataSourcesGet.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4/MaDAS/plugins/_dataSourcesGet.php
+END
+_visualizationList.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4/MaDAS/plugins/_visualizationList.php
+END
+right.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/4/MaDAS/plugins/right.php
+END
+_dasServersGet.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/4/MaDAS/plugins/_dasServersGet.php
+END
+error_log
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/4/MaDAS/plugins/error_log
+END
+jquery.plugins.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/4/MaDAS/plugins/jquery.plugins.js
+END
+_dataSourcesAdd.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4/MaDAS/plugins/_dataSourcesAdd.php
+END
+_dataSourcesAdd_R.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4/MaDAS/plugins/_dataSourcesAdd_R.php
+END
+_dataSourcesView.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4/MaDAS/plugins/_dataSourcesView.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/4/MaDAS/plugins/index.php
+END
+_dataSourcesList.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4/MaDAS/plugins/_dataSourcesList.php
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_treefam/resources
+END
+treefam_taxa_view_reduced_species.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_treefam/resources/treefam_taxa_view_reduced_species.xml
+END
+genes.sql
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_treefam/resources/genes.sql
+END
+treefam_taxa_view_species.nhx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_treefam/resources/treefam_taxa_view_species.nhx
+END
+treefam_taxa_view_species.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_treefam/resources/treefam_taxa_view_species.xml
+END
+species.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_treefam/resources/species.xml
+END
+treefam_taxa_view_reduced_species.nhx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_treefam/resources/treefam_taxa_view_reduced_species.nhx
+END

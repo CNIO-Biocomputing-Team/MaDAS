@@ -1,0 +1,162 @@
+/* jqModal base Styling courtesy of;
+	Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+	the Window's z-index value will be set to 3000 by default (in jqModal.js). You
+	can change this value by either;
+	  a) supplying one via CSS
+	  b) passing the "zIndex" parameter. E.g.  (window).jqm({zIndex: 500}); */
+	
+.jqmWindow {
+    display: none;
+    
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    
+    margin-left: -300px;
+    width: 600px;
+    
+    background-color: #EEE;
+    color: #333;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.jqmOverlay { background-color: #FFFFFF; }
+.jqmClose { background-color: #FFFFFF;border:1px solid #ffffff; }
+
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+	width: expression(this.parentNode.offsetWidth+'px');
+	height: expression(this.parentNode.offsetHeight+'px');
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+
+
+/* jqmModal dialog CSS courtesy of;
+  Brice Burgess <bhb@iceburg.net> */
+
+div.jqmDialog {
+  display: none;
+    
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    
+    margin-left: -200px;
+  	width: 500px;
+
+  overflow: hidden;
+  font-family:verdana,tahoma,helvetica;
+}
+
+div.jqmBigDialog {
+  display: none;
+    
+    position: fixed;
+    top: 17%;
+    left: 30%;
+    
+    margin-left: -200px;
+  width: 700px;
+
+  overflow: hidden;
+  font-family:verdana,tahoma,helvetica;
+}
+
+div.jqmXXLDialog {
+  display: none;
+    
+    position: fixed;
+    top: 2%;
+    left: 20%;
+    
+  margin-left: -200px;
+  width: 1130px;
+
+  overflow: hidden;
+  font-family:verdana,tahoma,helvetica;
+}
+
+
+
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html div.jqmDialog {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+* html div.jqmBigDialog {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+* html div.jqmXXLDialog {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+
+/* [[[ Title / Top Classes ]]] */
+div.jqmdTC { 
+  background-color:#FFFFFF; 
+  border-top:10px solid #878787;
+  border-right:10px solid #878787;
+  border-left:10px solid #878787;
+  color: #333333;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 7px 22px 5px 5px;
+  font-family:tahoma,helvetica;
+  * zoom: 1;
+}
+
+
+/* [[[ Body / Message Classes ]]] */
+div.jqmdBC {
+  background-color:#FFFFFF; 
+  border-bottom:10px solid #878787;
+  border-right:10px solid #878787;
+  border-left:10px solid #878787;
+  padding: 7px 7px 7px;
+  /*height: 180px;*/
+  overflow: auto;
+}
+
+div.jqmdMSG {border:1px solid #E0E0E0;height:97%; }
+
+
+/* [[[ Button classes ]]] */
+input.jqmdX {
+  position: absolute;
+  right:17px;
+  top: 14px;
+  padding: 0 0 0 19px;
+  height: 22px;
+  width: 66px;
+  overflow: hidden;
+}
+input.jqmdXFocus {background-position: bottom left; outline: none;}
+
+div.jqmdBC button, div.jqmdBC input[type="submit"] {
+  margin: 8px 10px 4px 10px;
+  color: #666666;
+  background-color: #fff;
+  cursor: pointer;
+  border:1px solid #666666;
+}
+
+div.jqmDialog input:focus, div.jqmDialog input.iefocus { background-color: #eaffc3; }
+div.jqmBigDialog input:focus, div.jqmBigDialog input.iefocus { background-color: #eaffc3; }
+div.jqmXXLDialog input:focus, div.jqmBigDialog input.iefocus { background-color: #eaffc3; }

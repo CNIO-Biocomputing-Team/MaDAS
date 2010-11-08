@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference
+END
+class.set-reference.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/class.set-reference.php
+END
+v_segment_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/v_segment_edit.php
+END
+v_dsn_edit_r.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/v_dsn_edit_r.php
+END
+d_segment_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/d_segment_list.php
+END
+lang_EN.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/lang_EN.php
+END
+insert_fasta.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/insert_fasta.sh
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/index.php
+END
+data_load-gff.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/data_load-gff.php
+END
+untar_file.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/untar_file.sh
+END
+create_sql.awk
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/create_sql.awk
+END
+v_segment_edit_r.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/v_segment_edit_r.php
+END
+v_dsn_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/v_dsn_edit.php
+END
+d_dsn_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/d_dsn_list.php
+END
+v_segment_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/v_segment_list.php
+END
+getDsn.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/getDsn.php
+END
+insert_fasta.error
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/insert_fasta.error
+END
+mail_fasta_inserted.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_set-reference/mail_fasta_inserted.txt
+END

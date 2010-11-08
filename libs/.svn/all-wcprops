@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/34/MaDAS/libs
+END
+select-general.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/6/MaDAS/libs/select-general.php
+END
+class.comodity.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/6/MaDAS/libs/class.comodity.php
+END
+html2text.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/6/MaDAS/libs/html2text.php
+END
+class.progress_bar.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/6/MaDAS/libs/class.progress_bar.php
+END
+class.projects.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/6/MaDAS/libs/class.projects.php
+END
+ez_sql.php
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/12/MaDAS/libs/ez_sql.php
+END
+edit-r-general.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/6/MaDAS/libs/edit-r-general.php
+END
+class.madasdb.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/6/MaDAS/libs/class.madasdb.php
+END
+class.das_server.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/6/MaDAS/libs/class.das_server.php
+END
+class.paintSearch.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/6/MaDAS/libs/class.paintSearch.php
+END
+mc-google-init.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/6/MaDAS/libs/mc-google-init.php
+END
+class.wms.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/30/MaDAS/libs/class.wms.php
+END
+ajax-select-general.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/6/MaDAS/libs/ajax-select-general.php
+END
+ajax-select-multiple-simple.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6/MaDAS/libs/ajax-select-multiple-simple.php
+END
+class.data_sources.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/6/MaDAS/libs/class.data_sources.php
+END
+class.user.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/6/MaDAS/libs/class.user.php
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/6/MaDAS/libs/class.phpmailer.php
+END
+class.plugins.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/6/MaDAS/libs/class.plugins.php
+END
+ajax-options-general.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/6/MaDAS/libs/ajax-options-general.php
+END
+class.madasmap.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/6/MaDAS/libs/class.madasmap.php
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/6/MaDAS/libs/class.smtp.php
+END

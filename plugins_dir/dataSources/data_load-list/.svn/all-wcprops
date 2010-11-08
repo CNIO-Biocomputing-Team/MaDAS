@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-list
+END
+d_index.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-list/d_index.php
+END
+class.load-list.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-list/class.load-list.php
+END
+lang_EN.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-list/lang_EN.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/MaDAS/plugins_dir/dataSources/data_load-list/index.php
+END

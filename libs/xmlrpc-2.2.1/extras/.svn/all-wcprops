@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/extras
+END
+test.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/extras/test.py
+END
+test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/extras/test.pl
+END
+workspace.testPhpServer.fttb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/extras/workspace.testPhpServer.fttb
+END
+rsakey.pem
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/6/MaDAS/libs/xmlrpc-2.2.1/extras/rsakey.pem
+END

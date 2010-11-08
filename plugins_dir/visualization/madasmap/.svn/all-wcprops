@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/37/MaDAS/plugins_dir/visualization/madasmap
+END
+map.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/35/MaDAS/plugins_dir/visualization/madasmap/map.php
+END
+features.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/27/MaDAS/plugins_dir/visualization/madasmap/features.php
+END
+class.paint.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/25/MaDAS/plugins_dir/visualization/madasmap/class.paint.php
+END
+featureTypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/MaDAS/plugins_dir/visualization/madasmap/featureTypes.php
+END
+types.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/19/MaDAS/plugins_dir/visualization/madasmap/types.php
+END
+v_feature_edit.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/37/MaDAS/plugins_dir/visualization/madasmap/v_feature_edit.php
+END
+v_feature_edit_r.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/MaDAS/plugins_dir/visualization/madasmap/v_feature_edit_r.php
+END
+jquery.madasmap.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/MaDAS/plugins_dir/visualization/madasmap/jquery.madasmap.js
+END
+wms.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8/MaDAS/plugins_dir/visualization/madasmap/wms.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8/MaDAS/plugins_dir/visualization/madasmap/index.php
+END

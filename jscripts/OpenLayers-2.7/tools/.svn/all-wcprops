@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools
+END
+exampleparser.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/exampleparser.py
+END
+toposort.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/toposort.py
+END
+jsmin.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/jsmin.c
+END
+mergejs.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/mergejs.py
+END
+shrinksafe.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/shrinksafe.py
+END
+update_dev_dir.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/update_dev_dir.sh
+END
+jsmin.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/jsmin.py
+END
+oldot.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/oldot.py
+END
+minimize.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/minimize.py
+END
+release.sh
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/release.sh
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/README.txt
+END
+BeautifulSoup.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/MaDAS/jscripts/OpenLayers-2.7/tools/BeautifulSoup.py
+END

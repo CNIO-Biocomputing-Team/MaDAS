@@ -1,0 +1,165 @@
+<?php 
+	//requiered initializations
+	session_start();
+	ini_set('include_path',$_SESSION['include_path']);
+	
+	//include  clases
+	include_once "ez_sql.php";
+	include_once "class.comodity.php";
+	include_once "class.projects.php";
+	include_once "class.plugins.php";
+	include_once "class.user.php";
+
+	$userId	= @$_COOKIE['idusers'];
+	$pid	= @$_SESSION['current_project'];
+	$sid	= @$_REQUEST['sid'];
+
+	
+	
+	$favorites = (isset($_REQUEST['favorites']))?$_REQUEST['favorites']:0;
+	
+	$u = new User;
+	$c = new Comodity;
+	$p 	= new Project;
+	$plu = new Plugins;
+	
+	if (!$_REQUEST['plugin']) {
+		$project = $p->getProjectById($pid);
+	}
+
+?>
+<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td id="options2" align="left" style="padding-bottom:0px;padding-top:10px;width:850px;">
+			<? if (!$_REQUEST['plugin']) { ?>
+			    <a onClick='javascript:$jQ(this).myProjectView(<?=$pid?>)'>Manage Project</a> | 
+			    <a href="#" onclick="javascript:$jQ(this).myProjectBrowseAnnotations(0)">Visualization Plugins</a>
+			<? } else { ?>
+			    <a onClick='javascript:$jQ(this).loadPlugins()'>Plugins</a>
+			<? } ?>
+			<? if ($sid) { ?>
+				| <a href="#description_box" class="pface">Plugin Help</a>
+				| <a href="#"  onclick="$jQ(this).shareLink('Share this page',<?=$pid?>,<?=$sid?>);">Share this page</a>
+			<? } ?>
+		</td>
+	</tr>
+	<tr>
+		<td valign="top" align="left">	
+		<?php 
+			// no visualization selected
+			if (!$sid){
+				echo '<p><b>Available Visualization Plug-ins</b>.';
+				
+				if ($userId){
+					echo 'Your favorite plug-ins are highlighted. [ ';
+					if (!$_REQUEST['plugin']) {
+						echo '<a onClick=\'javascript:$jQ(this).myProjectBrowseAnnotations(1)\' id="p_sources">';
+					}else{
+						echo '<a onClick=\'javascript:$jQ(this).visualizationList(1)\' id="p_sources">';
+					}
+					echo 'View Only Favorites</a> | ';
+					if (!$_REQUEST['plugin']) {
+						echo '<a onClick=\'javascript:$jQ(this).myProjectBrowseAnnotations(0)\' id="p_sources" class="pa">';
+					}else{
+						echo '<a onClick=\'javascript:$jQ(this).visualizationList(0)\' id="p_sources" class="pa">';
+					}
+					echo 'View All</a>]</p><br><br>';
+				}				
+				
+				$visualization = $plu->getVisualizationByDAS(1);
+					
+				$x=0;
+				$y=0;
+				$c=0;
+				$columns = 4;
+				if ($visualization){
+					foreach ($visualization as $vis){
+						if ($c%$columns ==0 && $c!=0){
+							$y +=180;
+							$x = 0;
+						}
+						if (!$u->isFavorite($userId,$vis->idvisualization,'visualizationplugin') && $favorites){
+						
+						}else{	
+							echo '<div id="'.$vis->idvisualization.'_box" style="display:none;"><b>DAS Server:</b><br /><br />'.$vis->dasname.' (Protocol: '.$vis->dasprotocol.')<br /><br /><b>Description:</b><br /><br />'.$vis->videscription.'<br /><br />';
+							if (!$_REQUEST['plugin']) {
+								echo '<a onclick="$jQ(\'#projectsCanvas\').load(\'projects/myProjectBrowseAnnotations.php?sid='.$vis->idvisualization.'\');$jQ(\'#'.$vis->idvisualization.'_box\').disposejBox();">Use Plugin</a>&nbsp;|&nbsp;';
+							}
+							echo '<a onclick="$jQ(\'#visualization\').load(\'users/favoriteAdd.php?fid='.$vis->idvisualization.'&ftype=visualizationplugin\');$jQ(\'#'.$vis->idvisualization.'_box\').disposejBox();">Mark as favorite</a></div>';
+							
+							
+							//favorite
+							if ($u->isFavorite($userId,$vis->idvisualization,'visualizationplugin'))
+							
+								echo '<div id="'.$vis->idvisualization.'" style="left:'.$x.'px;top:'.$y.'px" class="visualization-favorite">';
+								
+							//no favorite
+							else
+							
+								echo '<div id="'.$vis->idvisualization.'" style="left:'.$x.'px;top:'.$y.'px" class="visualization">';	
+								
+							echo '<br><div class="visualization-name" align="center">'.$vis->viname.'</div>
+								  <div class="visualization-by" align="center">By '.$vis->name.'</div>
+								  <div class="visualization-clicks"><a href="#'.$vis->idvisualization.'_box" class="pface">+ View Description</a></div>';
+							
+							if ($userId){	  
+								if (!$u->isFavorite($userId,$vis->idvisualization,'visualizationplugin'))
+									echo '<div class="visualization-clicks"><a onclick="$jQ.get(\'users/favoriteAdd.php?fid='.$vis->idvisualization.'&ftype=visualizationplugin\',function(data,txt){$jQ(\'.pa\').trigger(\'click\')});">+ Mark as Favorite</a></div>';
+								else
+									echo '<div class="visualization-clicks"><a onclick="$jQ.get(\'users/favoriteAdd.php?nofa=1&fid='.$vis->idvisualization.'&ftype=visualizationplugin\',function(data,txt){$jQ(\'.pa\').trigger(\'click\')});">+ Unmark as Favorite</a></div>';	
+							}
+							if (!$_REQUEST['plugin']) {
+								echo '<div class="visualization-clicks"><a onclick="$jQ(\'#projectsCanvas\').load(\'projects/myProjectBrowseAnnotations.php?sid='.$vis->idvisualization.'\');">+ Use Plugin</a></div>';
+							}
+							echo '</div>';
+								  
+							$x += 181;	  
+	                        $y -= 174;	  
+							$c++;
+						}
+					}
+				}
+			
+		?>
+		<?php	
+			// visualization selected
+			}else {
+			
+				$visualization = $plu->getVisualizationById($sid);
+				$plugin = $_SESSION['visualization_dir'].'/'.$visualization->vidirectory.'/index.php';
+				//plugin not found
+				if (!file_exists('../'.$plugin)){
+					$c->mesg($_SESSION['plugin_not_found'],false);
+					exit;
+				}
+				echo '<div id="description_box" style="display:none;"><b>DAS Server:</b><br /><br />'.$visualization->dasname.' (Protocol: '.$visualization->dasprotocol.')<br /><br /><b>Description:</b><br /><br />'.$visualization->videscription.'<br /><br /></div>';
+		?>
+			
+			<div id="visualizationB" class="pluginContainer">Loading plugin...</div>
+			
+			<div align="center">			
+				<?=$visualization->viname?>.<br /> <span style="color:#626B8A">
+				<?php		
+				if ($visualization->public_data >0){
+					echo 'Created by </span><span style="text-transform:capitalize">';
+					if ($project->public_data == 2)
+						echo '<a href="mailto:'.$visualization->email.'" title="mail to">'.$visualization->name.'</a>';
+					else 	
+						echo '<span style="color:#000000;">'.$visualization->name.'</span>';
+					echo '</span>';
+				}
+				echo '. '.$visualization->vicreated.'.';
+				?>
+			<div>
+		<?php } ?>	
+		</td>
+	</tr>
+</table>
+<script language="javascript">
+	$jQ(document).ready(function() { 
+		$jQ('.pface').facebox();
+		<?php if ($sid){ ?>
+		$jQ("#visualizationB").load('<?=$plugin?>');
+		<?php } ?>
+	});
+</script>

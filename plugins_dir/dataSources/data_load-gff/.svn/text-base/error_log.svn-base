@@ -1,0 +1,11 @@
+mv: ../../../libs/FlashUploader_102/uploads/94790e5e8afef779821ad6ef0de8cda1: No such file or directory
+--23:28:01--  http://localhost/madas/plugins_dir/dataSources/data_load-gff/parseFile.php?file=tmp/94790e5e8afef779821ad6ef0de8cda1&dsn=15958&mtype=1&annot=12953
+           => `parseFile.php?file=tmp%2F94790e5e8afef779821ad6ef0de8cda1&dsn=15958&mtype=1&annot=12953'
+Resolviendo localhost... 127.0.0.1, ::1, fe8200 OK
+Longitud: 46 [text/html]
+parseFile.php?file=tmp%2F94790e5e8afef779821ad6ef0de8cda1&dsn=15958&mtyp200 OK
+Longitud: 46 [text/html]
+parseFile.php?file=tmp%2F94790e5e8afef779821ad6ef0de8cda1&dsn=15958&mtype=1&annot=12953: Permission denied
+
+No se puede escribir a `parseFile.php?file=tmp%2F94790e5e8afef779821ad6ef0de8cda1&dsn=15958&mtype=1&annot=12953' (Permission denied).
+rm: tmp/94790e5e8afef779821ad6ef0de8cda1: No such file or directory
